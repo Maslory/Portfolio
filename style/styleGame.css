@@ -1,0 +1,48 @@
+#field {
+  float: left;
+      width: 800px;
+      height: 600px;
+      border: 10px solid rgb(226, 167, 67);
+      background-image: url('../game-pack/cover.jpg');
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    #ball {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 120px;
+      height: 120px;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      -ms-transition: all 1s;
+      transition: all 1s;
+    }
+
+.imgCow{
+
+}
+
+.scores{
+  margin-left: 1%;
+  text-decoration: none;
+  margin-top: 3.5%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.score{
+  max-width: 15%;
+  overflow:hidden;
+  color: rgb(0, 0, 0);
+  background: rgb(245, 245, 245);
+  width: 40%;
+  float: right;
+  position: relative;
+  margin-right:25%;
+  border: 3px solid rgb(226, 167, 67);
+}

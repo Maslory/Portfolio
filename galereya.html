@@ -1,0 +1,39 @@
+<html >
+<head >
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+<meta charset="UTF-8"/>
+<title>Галерея</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript" src="script/script.js" defer></script>
+</head>
+<body>
+
+<div class="ObodoksInfoy">
+  <section class="buttons">
+    <a href="index.html" class="butInputImage" >Главная</a>
+    <a href="galereya.html" class="butInputImage">Галерея</a>
+    <a href="slider.html" class="butInputImage">Слайдер</a>
+    <a href="examples.html" class="butInputImage">Примеры</a>
+      <a href="games.html" class="butInputImage">Игры</a>
+  </section>
+</div>
+<div class="container">
+  <input id="input_file" type="file" name="file_name" accept=".jpg,.jpeg,.png" style="display: none;">
+  <div class="bodycenter">
+    <img class="imgMain" id="slider" src = "" width = "1000" height = "600"  id = "img" onclick="right_arrow()"> </img> <br />
+  </div>
+  <a id="add_file" class="butInputImage" >Добавить картинку</a>
+  <a id="delete_file" class="butInputImage" onclick="deleteImg()" >Удалить картинку</a>
+</div>
+
+<div class="wrapper">
+
+</div>
+
+  <div class="DownInfo">
+<ul>
+    <ul/>
+  </div>
+</body>
+</html>

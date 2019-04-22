@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style/styleGame.css">
+	<script type="text/javascript" src="script/scriptGame.js" defer></script>
+<meta charset="utf-8">
+<title>Примеры</title>
+
+</head>
+<body>
+  <script type="text/javascript">
+    document.ondragstart = noselect;
+    // запрет на перетаскивание
+    document.onselectstart = noselect;
+    // запрет на выделение элементов страницы
+    document.oncontextmenu = noselect;
+    // запрет на выведение контекстного меню
+    function noselect() {return false;}
+</script>
+  <div class="ObodoksInfoy">
+  <section class="buttons">
+    <a href="index.html" class="butInputImage" >Главная</a>
+    <a href="galereya.html" class="butInputImage">Галерея</a>
+    <a href="slider.html" class="butInputImage">Слайдер</a>
+    <a href="examples.html" class="butInputImage">Примеры</a>
+      <a href="games.html" class="butInputImage">Игры</a>
+  </section>
+  </div>
+  Кликните на любое место поля, чтобы тарелка перелетела туда. Цель: ловить коров.
+   <br>
+
+
+   <div id="field">
+     <img src="game-pack/mainHero.png" alt="" id="ball">
+   </div>
+  <div class="score">
+  <img src="game-pack/score-black.png" width="25%px" height="12%" alt="">
+  <b>
+  <a href="#" id="scores" class="scores">0</a>
+</b>
+<h1></h1>
+  </div>
+
+<div class="DownInfo">
+</div>
+</body>
+</html>

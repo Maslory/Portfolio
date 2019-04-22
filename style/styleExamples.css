@@ -1,0 +1,68 @@
+.alert {
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+.events{
+  padding: 1%;
+  margin-top: 0.2%;
+  height: auto;
+  float: right;
+  right: 100%;
+  min-height: 150px;
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(../image/temnye_kvadratiki.jpg);
+  width: 100%;
+  border: 3px solid #fff; /* Белая рамка */
+  border-radius: 10px; /* Радиус скругления */
+  display: inline-block;
+}
+
+.hOne{
+  font-size: 25px;
+  position: relative;
+  display: inline;
+}
+
+.rightSide{
+  float: right;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.leftSide{
+  width: 50%;
+  margin-top: 10px;
+  float: left;
+}
+
+
+.example1{
+float: left;
+}
+
+.example2{
+  margin-right: 0%;
+    float: right;
+}
+
+.example3{
+  min-height: 500px;
+  font-size: 35px;
+  width: 50%;
+  float: left;
+}
+.example4{
+  width: 50%;
+  float: right;
+  min-height: 500px;
+}
